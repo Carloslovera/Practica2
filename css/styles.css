@@ -1,0 +1,22 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-image: url("../image/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    text-align: right;
+    color: #ffffff;
+}
+
+/*div.container{
+    height: 100px;
+    width: 10px;
+}
