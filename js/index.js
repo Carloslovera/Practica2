@@ -121,8 +121,169 @@ if (hour == 12 && minute == 30) {
     alert( 'La hora es 12:30' );
 }*/
 
-let i = 3;
+/*let i = 3;
 while (i) {
     alert( i );
     i--;
+}*/
+
+/*var name;
+
+name = "Hernan";
+
+let title = "Gadea";
+
+const fechaDeNacimiento = '13/02/89';*/
+
+/*
+    Tipos de datos
+
+    string: Son valores de tipo texto
+    number: Son valores de tipo numerico
+    boolean: Son valores true o false
+
+*/
+
+/*//Tipo de dato string (van entre comillas dobles o simples "" '')
+let name = "Carlos";
+
+//Tipo de dato number (Van sin comillas)
+let number = 33;
+
+//Tipo de dato boolean (Valores true/false)
+let esMayorDeEdad = true;
+
+//Tipo de dato undefined
+let sexo = 'M';*/
+
+/* Definimos variables number1 mas number2, de tipo number */
+//var number1 = 5;
+//var number2 = 4;
+
+//Declaro una variable boolean(true o false)
+//var esMayorDeEdad = false;
+/*var edad = 190;
+
+//Condicion
+esMayorDeEdad = edad > 18 && edad < 100;*/
+
+/*
+Estructuras condicionales
+if / else
+*/
+/*if (edad > 18 && edad < 100) {
+    esMayorDeEdad = true;
+} else {
+    esMayorDeEdad = false;
+}*/
+
+// Al usar el operador numerico con texo realizamos una concatenacion
+//console.log( "El resultado es: " + (number1 + number2));
+//console.log(esMayorDeEdad);
+
+/*switch (edad) {
+     case 19:
+         console.log(`${edad} Es mayor de edad`);
+        break;
+     case 15:
+        edad = true; console.log(`${edad} Es menor de edad`);
+        break;
+     case 80:
+        edad = false; console.log(`${edad} Es un señor mayor`);
+        break;
+    default:
+        edad = false; console.log(`${edad} error`);
+        break;
+}*/
+
+/*var esMayorDeEdad;
+
+if (esMayorDeEdad) {
+    edad = true;
+} else {
+    edad = false;
 }
+
+console.log(edad);*/
+
+/*var edad;
+
+edad = parseInt(prompt("Ingresa tu edad"));
+
+if (edad > 18) {
+    alert("Es mayor de edad");
+} else {
+    alert("Es menor de edad");
+}*/
+
+//var number = 0;
+/*while (number <= 10) {
+    console.log("3 x " + number + " = " + (3 * number));
+    number++;
+}*/
+
+/*for (let i = 0; i <= 10; i++) {
+    console.log("2 x " + i + " = " + (2 * i));
+    
+}*/
+
+//var apellido = prompt("ingrese su apellido");
+//Las funsiones deben ser llamadas sino no podras utilizarlas
+/*function saludar (nombre) {
+    alert("Hola, " + nombre +" saludos desde la consola");
+}
+
+saludar(nombre);*/
+/*var nieve = "hielo";
+function frost(nieve) {
+    console.log("Que caiga el " + nieve + " por favor");
+}
+
+frost(nieve);
+
+function yuyi(apellido) {
+    alert("Hola, " + apellido + " Como estas usted?");
+}
+
+yuyi(apellido);*/
+
+/*function calcularSiEsMayorDeEdad() {
+    let edad = prompt("Ingresa tu edad");
+    const esMayorDeEdad = (edad) => {
+        if (edad >= 18 ) {
+            alert("Es mayor con " + edad );
+        } else {
+            alert("Es menor con " + edad);
+        }
+    }
+    esMayorDeEdad(edad);
+}
+
+calcularSiEsMayorDeEdad();*/
+//Trabajamos con arrays
+/*var dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
+
+dias.forEach(
+    dias => {
+        console.log(dias);
+    }
+);*/
+
+var number = [1, 2, 3, 4, 5]
+
+/*const corrigelo = number.every(number => number < 4);
+
+const corrigelo2 = number.some(number => number > 4);
+
+console.log(corrigelo,corrigelo2);*/
+
+/*const sum = number.reduce((total, valor) => total + valor, 0);
+console.log(sum);*/
+
+/*const sum = number.map(numb => numb + 2);
+console.log(sum);
+
+console.log(number);*/
+
+const filt = number.filter(numb => numb <5);
+console.log(filt);
