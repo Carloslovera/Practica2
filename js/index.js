@@ -269,7 +269,7 @@ dias.forEach(
     }
 );*/
 
-var number = [1, 2, 3, 4, 5]
+//var number = [1, 2, 3, 4, 5]
 
 /*const corrigelo = number.every(number => number < 4);
 
@@ -285,5 +285,9 @@ console.log(sum);
 
 console.log(number);*/
 
-const filt = number.filter(numb => numb <5);
-console.log(filt);
+/*const filt = number.filter(numb => numb <5);
+console.log(filt);*/
+
+let h1 = document.getElementById("contenido");
+
+h1.innerHTML = "Hello gente";
